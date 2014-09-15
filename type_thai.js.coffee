@@ -1,7 +1,7 @@
 class @TypeThai
 
-  constructor: (selector) ->
-    @$el = selector
+  constructor: (element) ->
+    @$el = element
     @$el.on 'keypress', @catchAndReplace
 
   catchAndReplace: (e) =>
