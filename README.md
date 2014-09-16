@@ -1,13 +1,13 @@
 # Type Thai
 ## A gist to mimic changing keyboard language input to Thai without having to do it in the browser.
 
-Developed for use in my [Thai Words app](https://github.com/paul-ylz/thai_words)  
+Developed for use [Thai Words](https://github.com/paul-ylz/thai_words)  
 
-This keymap should work accurately for Chrome and Safari browsers.  
+This keymap should work accurately for Chrome and Safari browsers only.  
 
-Credit to [Scott Harvey](https://github.com/scottharvey) for initiating, coaching
+Credit to [Scott Harvey](https://github.com/scottharvey) for heaps of coaching and actually getting the code to work in a tidy and organized way.  
 
-In this example, `#new_entry_thai` is the `input` element that will now translate keypress events to Thai characters.  
+In this example, `#new_entry_thai` is the `input` element that will translate keypress events to Thai characters.  
 
 
     class ThaiWords.Views.Form extends Backbone.View
@@ -18,3 +18,7 @@ In this example, `#new_entry_thai` is the `input` element that will now translat
         $(@el).html(@template())
         new TypeThai @$('#new_entry_thai')
         this
+
+## Dependencies
+- jQuery
+- Coffeescript
