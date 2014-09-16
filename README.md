@@ -1,5 +1,5 @@
 # Type Thai
-## A gist to mimic changing keyboard language input to Thai without having to do it in the browser.
+## A gist to mimic changing keyboard language input to Thai without having to do it in the OS.
 
 Developed for use [Thai Words](https://github.com/paul-ylz/thai_words)  
 
